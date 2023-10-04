@@ -16,4 +16,7 @@ input {
   border-radius: 15px;
   height: 30px;
   font-family: 'Raleway';
+  font-size: 15pt;
+  border: none;
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.75);
 }
