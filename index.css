@@ -1,0 +1,9 @@
+html, body {
+  background: rgb(255, 255, 255);
+}
+.alt {
+  width: 60%;
+  margin-left: 20%;
+  padding: 20px;
+  background: rgb(0, 0, 0);
+}
