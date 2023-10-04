@@ -13,11 +13,12 @@ h1 {
   color: rgb(0, 0, 0);
 }
 input {
-  border-radius: 18px;
+  border-radius: 20px;
   height: 30px;
   font-family: 'Arial';
   font-size: 15pt;
   border: none;
   box-shadow: 2.5px 2.5px 5px 2.5px rgba(0, 0, 0, 0.75);
-  padding: 6px
+  padding: 10px;
+  box-sizing: border-box;
 }
