@@ -5,9 +5,10 @@ html, body {
   width: 60%;
   margin-left: 20%;
   padding: 20px;
-  color: rgb(255, 255, 255);
+  background: rgb(255, 255, 255);
 }
 h1 {
+  font-size: 100pt;
   font-family: "Raleway";
   color: rgb(0, 0, 0);
 }
