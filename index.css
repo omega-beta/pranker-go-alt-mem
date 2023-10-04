@@ -7,6 +7,9 @@ html, body {
   padding: 0px;
   background: rgb(255, 255, 255);
 }
+.alt:hover {
+  cursor: pointer;
+}
 h1 {
   font-size: 100pt;
   font-family: "Raleway";
