@@ -26,7 +26,7 @@ input {
   padding: 10px;
   box-sizing: border-box;
 }
-.results {
+.result {
   display: none;
 }
 .results-valid {
