@@ -1,5 +1,6 @@
 html, body {
   background: rgb(255, 255, 255);
+  font-family: "Raleway";
 }
 .alt {
   width: 60%;
@@ -24,4 +25,10 @@ input {
   box-shadow: 2.5px 2.5px 5px 2.5px rgba(0, 0, 0, 0.75);
   padding: 10px;
   box-sizing: border-box;
+}
+.results {
+  display: none;
+}
+.results-valid {
+  display: inline-block;
 }
