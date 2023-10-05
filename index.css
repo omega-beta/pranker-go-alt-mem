@@ -30,5 +30,6 @@ input {
   display: none;
 }
 .results-valid {
-  display: inline-block;
+  display: block;
+  color: rgb(0, 0, 0);
 }
