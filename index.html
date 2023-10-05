@@ -10,13 +10,9 @@
     <link rel="stylesheet" href="index.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script>
-      var results = document.getElementById("result");
-      var display = document.getElementById("display-result");
       $(document).on("keypress", "input", function(e){
         if(e.which == 13){
           var inputVal = $(this).val();
-          results.toggle.classList("results-valid");
-          display.innerHTML = searchup.value;
           alert("Search success!");
         }
       });
