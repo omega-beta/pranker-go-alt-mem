@@ -5,5 +5,6 @@ $(document).on("keypress", "input", function(e){
       var inputVal = $(this).val();
         results.toggle.classList("results-valid");
         display.innerHTML = searchup.value;
+        alert("Search success!");
       }
   });
