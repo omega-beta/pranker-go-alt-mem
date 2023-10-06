@@ -4,7 +4,7 @@ $(document).on("keypress", "input", function(e){
   if(e.which == 13){
       var inputVal = $(this).val();
         alert("Search success!");
-        results.toggle.classList("results-valid");
+        results.classList.toggle("results-valid");
         display.innerHTML = searchup.value;
       }
   });
