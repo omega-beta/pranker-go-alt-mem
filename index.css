@@ -27,7 +27,7 @@ input {
   box-sizing: border-box;
 }
 #result {
-  display: block;
+  display: none;
 }
 .results-valid {
   display: block;
