@@ -1,5 +1,5 @@
-function open(j) {
+function open(ele) {
   if (event.keyCode == 13) {
-    window.open(j, "_blank");
+    window.open("https://omega-beta.github.io", "_blank");
   }
 }
