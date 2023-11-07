@@ -1,5 +1,5 @@
 function open(ele) {
-  if (event.key == Enter) {
+  if (event.keyCode == "13") {
     window.open(ele.value, "_blank");
   }
 }
