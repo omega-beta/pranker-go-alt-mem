@@ -1,5 +1,5 @@
-function open(ele) {
-  if (event.key == "Enter") {
-    window.open(ele.value, "_blank");
+function open(j) {
+  if (event.key === "Enter") {
+    window.open(j.value);
   }
 }
