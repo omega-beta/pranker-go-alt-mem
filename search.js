@@ -1,5 +1,5 @@
 function open(j) {
-  if (j.length === 1) {
+  if (j.key === "a") {
     alert("enter");
   }
 }
