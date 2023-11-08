@@ -1,5 +1,5 @@
 function open(j) {
-  if (j.length > 3) {
+  if (j.length === 3) {
     alert("enter");
   }
 }
