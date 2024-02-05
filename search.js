@@ -3,3 +3,4 @@ function open(j) {
     alert("enter");
   }
 }
+open(j);
