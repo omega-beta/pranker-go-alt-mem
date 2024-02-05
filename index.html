@@ -23,7 +23,23 @@
           <p id="display-result">Your results</p>
         </div>
         <br>
-        <embed src="https://www.biologyclass.school" style="width: 700px; height: 400px; display: none;">
+        <button id="toggle-biology" style="display: block">Toggle</button>
+        <embed src="https://www.biologyclass.school" style="width: 700px; height: 400px;" id="biology">
+        <style>
+          #biology {
+            display: none;
+          }
+          .show {
+            display: block;
+          }
+        </style>
+        <script>
+          var toggler = document.getElementById("toggle-biology");
+          var biology = document.getElementById("biology");
+          toggler.addEventListener("mousedown", function(e) {
+            biology.classList.toggle("show");
+          });
+        </script>
       </center>
     </div>
   </body>
