@@ -8,7 +8,7 @@
     <link rel="x-icon" type="images/icon" href="https://seeklogo.com/images/N/new-google-favicon-logo-5E38E037AF-seeklogo.com.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="index.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> -->
     <script src="search.js"></script>
   </head>
   <body>
@@ -25,6 +25,13 @@
         <br>
         <button id="toggle-biology" style="display: block">Toggle</button>
         <embed src="https://www.biologyclass.school" style="width: 700px; height: 400px;" id="biology">
+        <script>
+          var toggler = document.getElementById("toggle-biology");
+          var biology = document.getElementById("biology");
+          toggler.addEventListener("mousedown", function(e) {
+            biology.classList.toggle("show");
+          });
+        </script>
         <style>
           #biology {
             display: none;
@@ -33,13 +40,6 @@
             display: block;
           }
         </style>
-        <script>
-          var toggler = document.getElementById("toggle-biology");
-          var biology = document.getElementById("biology");
-          toggler.addEventListener("mousedown", function(e) {
-            biology.classList.toggle("show");
-          });
-        </script>
       </center>
     </div>
   </body>
