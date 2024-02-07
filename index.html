@@ -16,14 +16,13 @@
       <center>
         <h1>Google</h1>
         <form>
-          <input type="text" name="search" size="50" placeholder="Search Google or type a URL" autocomplete="off" class="open"/>
+          <input type="text" name="search" size="50" placeholder="Search Google or type a URL" autocomplete="off" class="open"/><button id="toggle-biology" style="display: block">Toggle</button>
         </form>
         <div id="result">
           <h2>Results</h2>
           <p id="display-result">Your results</p>
         </div>
         <br>
-        <button id="toggle-biology" style="display: block">Toggle</button>
         <embed  id="biology" src="https://www.biologyclass.school" style="width: 700px; height: 400px;">
         <script>
           var toggler = document.getElementById("toggle-biology");
@@ -33,11 +32,17 @@
           });
         </script>
         <style>
-          #biology {
+          embed {
             display: none;
+          }
+          #toggle-biology {
+            border-radius: 15px;
+            padding: 15px;
+            background: rgba(200, 200, 200, 1);
           }
           #toggle-biology:hover {
             cursor: pointer;
+            background: rgba(150, 150, 150, 1);
           }
           .show {
             display: block;
